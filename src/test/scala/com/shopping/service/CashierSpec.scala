@@ -40,7 +40,6 @@ class CashierSpec extends AnyFlatSpec with Matchers {
 
     val receipt = cashier.generateReceipt(basket, testDate, List(appleDiscount, soupBreadOffer))
 
-
     receipt.appliedDiscounts.size shouldBe 2
 
     val appleDiscountAmount = receipt.appliedDiscounts
