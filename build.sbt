@@ -19,4 +19,6 @@ scalacOptions ++= Seq(
   "-deprecation",            
   "-feature",               
   "-unchecked"             
-) 
+)
+
+run / fork := true

@@ -32,15 +32,33 @@ git clone https://github.com/spudteo/shoppingBasket.git
 cd shoppingBasket
 ```
 
-### Run Tests
-```bash
-sbt test
-```
-
 ### Run Application
-```bash
-sbt run
-```
+There are two ways to run the application:
+
+1. By first launching sbt:
+   ```bash
+   $ sbt
+   > run apples soup bread
+   ```
+
+2. Directly from command line (requires quotes):
+   ```bash
+   $ sbt "run apples soup bread"
+   ```
+
+### Run Tests
+There are two ways to run the tests:
+
+1. By first launching sbt:
+   ```bash
+   $ sbt
+   > test
+   ```
+
+2. Directly from command line (requires quotes):
+   ```bash
+   $ sbt "test"
+   ```
 
 ## Running Options
 
