@@ -1,9 +1,11 @@
 target/
 project/target/
 project/project/
+.vscode/
 /.bsp/sbt.json
 /.bsp/
 /.idea/
 .bsp/
 .metals/
 .bloop/
+.idea/
