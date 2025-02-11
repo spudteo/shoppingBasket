@@ -19,8 +19,8 @@ Project dependencies:
 
 ### Clone the Repository
 ```bash
-git clone <repository-url>
-cd repository-folder
+git clone https://github.com/spudteo/shoppingBasket.git
+cd shoppingBasket
 ```
 
 ### Run Tests
