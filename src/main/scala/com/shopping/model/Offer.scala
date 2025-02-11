@@ -17,7 +17,8 @@ trait Offer {
     enabled && currentDate.isAfter(startDate) && currentDate.isBefore(endDate)
 }
 
-/** Represents a percentage discount on a specific item
+/**
+ * Represents a percentage discount on a specific item
  *
  * For example: "20% off on bananas" or "50% discount on milk"
  *
@@ -43,7 +44,8 @@ class PercentageDiscount(
     (item.price * basket.quantityOf(item) * percentage).setScale(2, BigDecimal.RoundingMode.DOWN)
 }
 
-/** Represents a "Buy X Get Y" type of offer where buying a certain quantity of one item
+/**
+ * Represents a "Buy X Get Y" type of offer where buying a certain quantity of one item
  * gives a discount on another item (or the same item)
  *
  * For example: "Buy 2 apples, get 1 orange 50% off" or "Buy 2 get 1 free"
