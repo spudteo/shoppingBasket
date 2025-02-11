@@ -15,6 +15,15 @@ Project dependencies:
 - **ScalaFix**: 0.11.1 (for linting)
 - **Java**: OpenJDK 11.0.25
 
+## Tested Environment
+Project dependencies:
+- **Scala**: 2.12.18
+- **SBT**: 1.10.7
+- **ScalaTest**: 3.2.17 (for testing)
+- **ScalaFix**: 0.11.1 (for linting)
+- **Java**: OpenJDK 11.0.25, OpenJDK 21.0.6
+- **Operating Systems**: macOS, Windows 11
+
 ## Quick Start
 
 ### Clone the Repository
